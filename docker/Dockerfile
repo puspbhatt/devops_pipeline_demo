@@ -8,6 +8,7 @@ COPY wildfly-8.2.0.Final /opt/wildfly
 COPY wildfly-spring-boot-sample-1.0.0.war /opt/wildfly/standalone/deployments/
 
 RUN java -version
+RUN pwd
 
 
 # Expose the ports we're interested in
